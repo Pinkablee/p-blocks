@@ -57,7 +57,7 @@ CreateThread(function()
             if IsInsideZone(coords, v.coords, v.zoneSize) then
                 sleep = 1
                 DrawTextOnScreen(v.label, 0.40, 0.01, 255, 255, 255, 255, 6, 0.5, true, false)
-                DrawMarker(1, v.coords.x, v.coords.y, v.coords.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 80.0, 80.0, 75.0, v.markerColor.r, v.markerColor.g, v.markerColor.b, 100, false, false, 2, true, nil, nil, false)
+                DrawMarker(1, v.coords.x, v.coords.y, v.coords.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 80.0, 80.0, 75.0, v.markerColor.r, v.markerColor.g, v.markerColor.b, 100, false, false, 2, false, nil, nil, false)
                 break
             end
         end
